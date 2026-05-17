@@ -242,9 +242,3 @@ ExPress/
 ## 许可证
 
 MIT License
-
----
-
-## 致谢
-
-ExPress 继承了 [ExBook](https://github.com/ExBook/ExBook) 的全部功能和设计理念。感谢 MA WEI JIAN 的原创工作。
