@@ -1,0 +1,39 @@
+% ============================================================
+% ExPress 用户配置文件
+%
+% 编辑此文件来定制你的书籍外观，无需修改 ExPress.cls。
+% ============================================================
+
+% --- 封面设置 ---
+\CoverImg{}                              % 留空使用纯色块；填入路径如 img/cover.jpg 使用封面图
+\PreTitle{EXPRESS · BOOK TEMPLATE}      % 前置标题
+\Title{数据科学导论}                      % 主标题
+\Subtitle{从理论到实践}                   % 副标题
+\Author{张三 · 李四}                     % 作者
+\Motto{行稳致远，厚积薄发}                % 座右铭
+\UpdateTime{2026.05}                     % 日期
+\OnlineCheckUrl{https://github.com/ExPress/ExPress}  % 在线勘误
+
+% --- 页眉设置（showmark 关闭时生效）---
+\Lhead{左侧页眉文本}
+\Chead{中间页眉文本}
+\Rhead{右侧页眉文本}
+
+% --- 水印设置 ---
+\TextWater{[微信公众号·研小布]}           % 行内文字水印
+\WaterImg{img/water.png}                 % 页面图片水印
+
+% --- 主题颜色 ---
+% 可选：\blue \green \purple \orange
+%       \infj \enfp \infp \esfp \intj \entp \isfj \enfj
+\setThemeColor{\purple}
+
+% --- 答案显示 ---
+% \showSolution  显示答案
+% \hideSolution  隐藏答案（默认）
+\setSolutionDisplay{\hideSolution}
+
+% --- 边注开关 ---
+% on  启用边注（显示在页面外侧）
+% off 关闭边注（回退为脚注）
+\marginnotetoggle{off}

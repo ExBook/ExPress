@@ -1,0 +1,41 @@
+\chapter{算法基础}
+
+\section{什么是算法}
+
+算法\mynote{算法（Algorithm）一词源于波斯数学家花剌子密（al-Khwārizmī）的名字。}是一组有限的、明确的指令序列，用于解决特定问题或完成特定任务。
+一个好的算法应当具备以下特性：
+
+\begin{itemize}
+    \item \textbf{有穷性}：算法必须在有限步后终止
+    \item \textbf{确定性}：每条指令必须有明确的含义
+    \item \textbf{可行性}：每条指令都必须是可执行的
+\end{itemize}
+
+\section{算法复杂度分析}
+
+算法复杂度是衡量算法效率的重要指标，主要包括时间复杂度和空间复杂度。
+
+\subsection{时间复杂度}
+
+时间复杂度描述了算法执行时间随输入规模增长的变化趋势。常见的时间复杂度从小到大排列为：
+
+\begin{enumerate}
+    \item $O(1)$ —— 常数阶
+    \item $O(\log n)$ —— 对数阶
+    \item $O(n)$ —— 线性阶
+    \item $O(n\log n)$ —— 线性对数阶
+    \item $O(n^2)$ —— 平方阶
+    \item $O(2^n)$ —— 指数阶
+\end{enumerate}
+
+\subsection{空间复杂度}
+
+空间复杂度描述了算法所需的额外存储空间随输入规模增长的变化趋势。
+原地算法（in-place algorithm）的空间复杂度为 $O(1)$，即不需要额外的辅助空间。
+
+\begin{figure}[htbp]
+    \centering
+    \autotilte{常见复杂度增长曲线}{（对数坐标）}
+    \caption{算法复杂度增长趋势对比}
+    \label{fig:complexity}
+\end{figure}

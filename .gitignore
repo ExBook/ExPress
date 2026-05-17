@@ -1,0 +1,16 @@
+# Build output
+build/
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.xdv
+
+# PDF output (optional: uncomment to ignore compiled PDFs)
+# *.pdf
+
+# macOS
+.DS_Store

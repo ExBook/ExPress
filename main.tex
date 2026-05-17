@@ -1,0 +1,56 @@
+% ============================================================
+% ExPress 示例主文档
+% 编译：latexmk main.tex 或 xelatex main.tex
+% ============================================================
+\documentclass[showmark, analysis]{ExPress}
+
+\begin{document}
+
+% 加载配置
+\include{config}
+
+% 封面
+\maketitle
+
+% 前言
+\begin{preface}
+本书是一本关于数据科学的入门教材，涵盖了从基础理论到实践应用的核心内容。
+每章末尾附有练习题，答案可参考附录。
+\end{preface}
+
+% 目录
+\tableofcontents
+\clearpage
+
+% ============================================================
+% 第一部分：理论基础
+% ============================================================
+\part{理论基础}
+
+\include{example/chapters/ch01}
+\include{example/chapters/ch02}
+
+% ============================================================
+% 第二部分：习题训练
+% ============================================================
+\part{习题训练}
+
+\include{example/chapters/ch01-ex}
+\include{example/chapters/ch02-ex}
+
+% ============================================================
+% 附录
+% ============================================================
+\begin{appendices}
+\include{example/chapters/appendix}
+\end{appendices}
+
+% ============================================================
+% 参考文献
+% ============================================================
+\begin{references}
+\bibitem{ref1} 作者. \textit{书名}. 出版社, 年份.
+\bibitem{ref2} Smith, J. \textit{Data Science Fundamentals}. Springer, 2025.
+\end{references}
+
+\end{document}

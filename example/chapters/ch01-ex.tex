@@ -1,0 +1,74 @@
+\chapter{算法基础习题}
+
+\section{课堂练习}\qanswerloc{10}
+
+\begin{qitems}[showanalysis]
+
+    \begin{bbox}
+        \qitem 算法必须具备输入、输出和 \blankbox 。
+        \fourchoices{确定性}{有穷性}{可行性}{以上都是}
+        \begin{analysis}
+            算法必须具备有穷性，即在有限步后终止。确定性和可行性也是好算法的特征，但有穷性是必须的。
+        \end{analysis}
+    \end{bbox}
+
+    \begin{bbox}
+        \qitem 下列函数的时间复杂度最小的是 \blankbox 。\textwater
+        \fourchoices
+            {$T_1(n)=n\log_2 n + 5000n$}
+            {$T_2(n)=n^2 - 800n$}
+            {$T_3(n)=n\log_2 n - 6000n$}
+            {$T_4(n)=20000\log_2 n$}
+        \begin{analysis}
+            $T_4(n) = 20000\log_2 n$ 为对数阶，时间复杂度最小。
+        \end{analysis}
+    \end{bbox}
+
+    \begin{bbox}
+        \qitem 若某算法空间复杂度为 $O(1)$，则表示该算法 \blankbox 。
+        \fourchoices
+            {不需要任何辅助空间}
+            {所需辅助空间大小与问题规模 $n$ 无关}
+            {不需要任何空间}
+            {所需空间大小与问题规模 $n$ 无关}
+        \begin{analysis}
+            $O(1)$ 表示所需辅助空间大小与问题规模无关（固定值），但仍可能需要少量辅助空间。
+        \end{analysis}
+    \end{bbox}
+
+\end{qitems}
+
+\section{课后作业}\qanswerloc{20}
+
+\begin{qitems}[prefix=（, suffix=）, optprefix=, optsuffix=]
+
+    \begin{bbox}
+        \qitem 分析以下程序段的时间复杂度。
+        \begin{lstlisting}
+int func(int n) {
+    int i = 0, sum = 0;
+    while (sum < n) sum += ++i;
+    return i;
+}
+        \end{lstlisting}
+        \fourchoices
+            {$O(\log n)$}
+            {$O(n^{1/2})$}
+            {$O(n)$}
+            {$O(n\log n)$}
+
+        \begin{analysis}
+            设循环次数为 $k$，则 $\sum_{i=1}^{k} i = \frac{k(k+1)}{2} < n$，
+            所以 $k \approx \sqrt{2n} = O(\sqrt{n})$。
+        \end{analysis}
+    \end{bbox}
+
+    \begin{bbox}
+        \qitem 以下关于算法的叙述中，正确的是 \blankbox 。
+        \threechoices
+            {算法必须有输入和输出}
+            {算法必须用流程图表示}
+            {算法的时间复杂度越低越好}
+    \end{bbox}
+
+\end{qitems}

@@ -1,0 +1,51 @@
+\chapter{数据结构习题}
+
+\section{基础练习}\qanswerloc{30}
+
+\begin{qitems}[showanalysis]
+
+    \begin{bbox}
+        \qitem 在单链表中，要将 $s$ 所指结点插入到 $p$ 所指结点之后，其语句应为 \blankbox 。
+        \fourchoices
+            {$s\rightarrow$next$=p+1$; $p\rightarrow$next$=s$;}
+            {$p\rightarrow$next$=s$; $s\rightarrow$next$=p\rightarrow$next;}
+            {$s\rightarrow$next$=p\rightarrow$next; $p\rightarrow$next$=s$;}
+            {$s\rightarrow$next$=p\rightarrow$next; $p\rightarrow$next$=s\rightarrow$next;}
+        \begin{analysis}
+            先保存 $p$ 的后继到 $s$ 的指针域，再更新 $p$ 的后继为 $s$。
+            即 $s\rightarrow$next$=p\rightarrow$next; $p\rightarrow$next$=s$;
+        \end{analysis}
+    \end{bbox}
+
+    \begin{bbox}
+        \qitem 一棵完全二叉树上有 1001 个结点，其中叶子结点的个数是 \blankbox 。
+        \fourchoices{250}{500}{501}{505}
+        \begin{analysis}
+            设度为 0、1、2 的结点数分别为 $n_0$、$n_1$、$n_2$。
+            由二叉树性质：$n_0 = n_2 + 1$，且 $n_0 + n_1 + n_2 = 1001$。
+            完全二叉树中 $n_1$ 为 0 或 1。代入得 $n_0 = 501$。
+        \end{analysis}
+    \end{bbox}
+
+\end{qitems}
+
+\section{综合应用}\qanswerloc{40}
+
+\begin{qitems}[startnum=3]
+
+    \begin{bbox}
+        \qitem[\textbf{考研真题}] 一棵二叉树的前序遍历序列为 ABCDEF，
+        中序遍历序列为 CBAEDF，后序遍历序列为 \blankbox 。
+        \sixchoices
+            {CBEFDA}{FEDCBA}{CBEDFA}{CBEFAD}{CEBFDA}{CEFBDA}
+    \end{bbox}
+
+    \begin{bbox}
+        \qitem 分析以下各算法的功能并说明其应用场景。
+        \begin{subqitems}
+            \subqitem 深度优先搜索（DFS）
+            \subqitem 广度优先搜索（BFS）
+        \end{subqitems}
+    \end{bbox}
+
+\end{qitems}
