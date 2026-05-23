@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./logo.svg" alt="ExPress" width="380">
+</div>
+
 # ExPress — LaTeX 书籍文档类
 
 **一次配置，生成专业排版的书籍 PDF。**
