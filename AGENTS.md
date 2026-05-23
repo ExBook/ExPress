@@ -13,8 +13,7 @@ ExPress 是一个 LaTeX 书籍文档类（`ExPress.cls`），基于 `book` 基�
 ### 第一步：确认使用环境
 
 询问用户：
-1. 使用 Overleaf（在线）还是本地？
-2. 如果在本地，确认已安装 TeXLive
+确认用户已安装 TeXLive
 
 ### 第二步：选择纸张尺寸（必选，默认 `a4paper`）
 
