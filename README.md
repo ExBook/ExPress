@@ -22,9 +22,15 @@
 **ExPress** 是一个专为书籍排版设计的 LaTeX 文档类。一次配置，即可生成专业排版的书籍 PDF。延续了 ExBook 的极简配置理念，同时新增书籍特有结构：篇/章/节、前言、附录、参考文献和边注。
 
 <div align="center">
-  <img src="./README.IMAGE/preview1.png" width="45%">
+  <img src="./README.IMAGE/preview1.png" width="32%">
   &nbsp;
-  <img src="./README.IMAGE/preview2.png" width="45%">
+  <img src="./README.IMAGE/preview3.png" width="32%">
+  &nbsp;
+  <img src="./README.IMAGE/preview5.png" width="32%">
+  <br>
+  <img src="./README.IMAGE/preview7.png" width="32%">
+  &nbsp;
+  <img src="./README.IMAGE/preview9.png" width="32%">
 </div>
 
 **功能特点：**
