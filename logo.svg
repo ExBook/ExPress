@@ -1,17 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 100" fill="none">
-  <!-- Open book / pages spread -->
-  <rect x="18" y="22" width="24" height="56" rx="3" fill="#61589B" opacity="0.15" transform="skewY(-5)"/>
-  <rect x="42" y="22" width="24" height="56" rx="3" fill="#61589B" opacity="0.25" transform="skewY(5)"/>
-  <!-- Page lines left -->
-  <line x1="24" y1="35" x2="36" y2="34" stroke="#61589B" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
-  <line x1="24" y1="42" x2="34" y2="41" stroke="#61589B" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
-  <line x1="24" y1="49" x2="36" y2="48" stroke="#61589B" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
-  <!-- Page lines right -->
-  <line x1="48" y1="35" x2="60" y2="36" stroke="#61589B" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
-  <line x1="50" y1="42" x2="60" y2="43" stroke="#61589B" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
-  <line x1="48" y1="49" x2="60" y2="50" stroke="#61589B" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
-  <!-- Decorative rule / press bar -->
-  <rect x="18" y="70" width="48" height="4" rx="2" fill="#61589B"/>
-  <!-- Text -->
-  <text x="82" y="63" font-family="'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="800" fill="#61589B" letter-spacing="-1">ExPress</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 90" fill="none">
+  <g transform="translate(0, 45)">
+    <!-- Open book spread icon -->
+    <g transform="translate(28, -32)">
+      <rect x="0" y="0" width="24" height="58" rx="3" fill="#61589B" opacity="0.15" transform="skewY(-5)"/>
+      <rect x="26" y="0" width="24" height="58" rx="3" fill="#61589B" opacity="0.25" transform="skewY(5)"/>
+      <!-- Lines left -->
+      <line x1="6" y1="15" x2="18" y2="14" stroke="#61589B" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <line x1="6" y1="22" x2="16" y2="21" stroke="#61589B" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+      <line x1="6" y1="29" x2="18" y2="28" stroke="#61589B" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+      <!-- Lines right -->
+      <line x1="32" y1="15" x2="44" y2="16" stroke="#61589B" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <line x1="34" y1="22" x2="44" y2="23" stroke="#61589B" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+      <line x1="32" y1="29" x2="44" y2="30" stroke="#61589B" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+      <!-- Press bar -->
+      <rect x="0" y="50" width="50" height="5" rx="2.5" fill="#61589B"/>
+    </g>
+    <!-- Text -->
+    <text x="92" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800" fill="#61589B" letter-spacing="-1" dominant-baseline="central">ExPress</text>
+  </g>
 </svg>
